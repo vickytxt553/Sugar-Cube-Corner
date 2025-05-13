@@ -1,0 +1,139 @@
+/*Chavira Eduardo
+González Kimberly
+Villalobos Victoria*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: #FFBCDD;
+}
+#cuadro{
+	width: 950px;
+	margin: auto;
+	margin-top: 1000px;
+	margin-block: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+header{
+	width: 950px;
+	height: 150px;
+	margin: auto;
+	margin-top: 20px;
+	margin-block: 20px;
+	border-radius: 40px;
+	overflow: hidden;
+	background: #CCFBE7;
+	h3{
+		font-size: 50px;
+		font-family: "Delius Swash Caps", cursive;
+		margin-top: 20px;
+		text-align: center;
+		color: #BE1D76;
+		font-weight: bolder;
+	}
+	p{
+		color: #BE1D76;
+		margin-bottom: 15px;
+		text-align: center;
+		font-size: 21px;
+		padding: 10px;
+		display: block;
+		font-family: "Delius Swash Caps", cursive;
+	  	font-weight: 600;
+	}
+}
+section{
+	width: 950px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+}
+section{
+	article{
+		background: #DC52A3;
+		width: 450px;
+		float: left;
+		overflow: hidden;
+		margin-bottom: 50px;
+		border-radius: 30px;
+		img{
+			width: 200px;
+			margin: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			display: block;
+			border-style: dotted;
+			border-color: #CCFBE7;
+			border-width: 6px;
+		}
+	}
+	aside{
+		background: #DC52A3;
+		width: 420px;
+		float: right;
+		overflow: hidden;
+		margin-bottom: 50px;
+		border-radius: 30px;
+		h2{
+		font-size: 30px;
+		font-family: "Delius Swash Caps", cursive;
+		margin-top: 90px;
+		text-align: center;
+		color: #CCFBE7;
+		font-weight: bold;
+		display: block;
+		background: #BE1D76;
+		}
+		a{
+		text-decoration: none;
+		color: #FFB7E1;
+		text-align: center;
+		font-size: 21px;
+		padding: 10px;
+		display: block;
+		font-family: "Delius Swash Caps", cursive;
+	  	font-weight: 600;
+		}
+		a:hover{
+		background-color: #CCFBE7;
+		color: #BE1D76;
+		font-style: italic;
+		}
+		p{
+		color: #BE1D76;
+		margin-bottom: 50px;
+		text-align: center;
+		font-size: 21px;
+		padding: 10px;
+		display: block;
+		font-family: "Delius Swash Caps", cursive;
+	  	font-weight: 600;
+		}
+	}
+	footer{
+  		background: #DC52A3;
+		width: 950px;
+		overflow: hidden;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		border-radius: 20px;
+		h3{
+		font-family: "Delius Swash Caps", cursive;
+		margin-top: 20px;
+		text-align: center;
+		}
+		p{
+		color: #BE1D76;
+		text-align: center;
+		font-size: 21px;
+		padding: 10px;
+		display: block;
+		font-family: "Delius Swash Caps", cursive;
+	  	font-weight: 600;
+		}
+	}
+}
+

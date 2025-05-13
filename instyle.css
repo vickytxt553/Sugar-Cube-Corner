@@ -1,0 +1,182 @@
+/*Chavira Eduardo
+González Kimberly
+Villalobos Victoria*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-image: url(https://images.rawpixel.com/image_social_square/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkzNS1hdW0tMTItYV8xXzEuanBn.jpg);
+}
+#cuadro{
+	width: 950px;
+	margin: auto;
+	margin-top: 1000px;
+	margin-block: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+header{
+	height: 200px;
+	width: 650px;
+	background: #FFBCDD;
+	border-radius: 30px;
+	display: block;
+	float: inline-start;
+	overflow: hidden;
+}
+header img{
+	margin-left: 60px;
+	height: 200px;
+}
+#menu{
+	height: 200px;
+	background: #FFBCDD;
+	width: 250px;
+	overflow: hidden;
+	float: right;
+	border-radius: 30px;
+	ul li{
+		list-style: none;
+		text-align: center;
+		display: block;
+		}
+	ul li a{
+	text-decoration: none;
+	color: #BE1D76;
+	font-size: 21px;
+	padding: 10px;
+	display: block;
+	font-family: "Delius Swash Caps", cursive;
+  	font-weight: 600;
+	}
+}
+#menu ul li a:hover{
+	background-color: #D497D4;
+	color: floralwhite;
+	font-style: italic;
+}
+section{
+	width: 950px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	border-radius: 30px;
+}
+section{
+	article{
+		background: #98DAB2;
+		width: 450px;
+		height: 1100px;
+		float: right;
+		margin-left: 50px;
+		overflow: hidden;
+		margin-bottom: 50px;
+		border-radius: 30px;
+		h2{
+			font-size: 30px;
+			font-family: "Delius Swash Caps", cursive;
+			margin-top: 20px;
+			text-align: center;
+			color: #814081;
+		}
+		h3{
+			font-size: 20px;
+			margin-left: 10px;
+			text-align: left;
+			font-family: arial;
+			color: #1f825b;
+			font-style: italic;
+			margin-top: 20px;
+			margin-left: 30px;
+			margin-right: 20px;
+		}
+		p{
+			font-size: 18px;
+			margin-top: 10px;
+			text-align: left;
+			font-family: arial;
+			color: #023d2b;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		img{
+			width: 300px;
+			margin: auto;
+			margin-top: 10px;
+			display: block;
+
+		}
+		video{
+			width: 300px;
+			margin: auto;
+			margin-top: 20px;
+			display: block;
+		}
+}
+aside{
+	background: #D497D4;
+	width: 450px;
+	height: 1100px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 50px;
+	border-radius: 30px;
+	h2{
+			font-size: 30px;
+			font-family: "Delius Swash Caps", cursive;
+			margin-top: 20px;
+			text-align: center;
+			color: #814081;
+		}
+		h3{
+			font-size: 20px;
+			margin-left: 10px;
+			text-align: left;
+			font-family: arial;
+			color: #1f825b;
+			font-style: italic;
+			margin-top: 20px;
+			margin-left: 30px;
+			margin-right: 20px;
+		}
+		p{
+			font-size: 18px;
+			margin-top: 10px;
+			text-align: left;
+			font-family: arial;
+			color: #023d2b;
+			margin-left: 30px;
+			margin-right: 20px;
+		}
+		img{
+			width: 300px;
+			margin: auto;
+			margin-top: 10px;
+			display: block;
+	}
+}
+#post p{
+		font-size: 18px;
+		margin-top: 10px;
+		text-align: center;
+		font-family: arial;
+		color: #814081;
+		margin-left: 30px;
+		margin-right: 20px;
+}
+		}
+footer{
+	background: #FFBCDD;
+	width: 950px;
+	overflow: hidden;
+	border-radius: 30px;
+	p{
+		font-size: 18px;
+		font-family: arial;
+		color: deeppink;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,222 @@
+/* General */
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #F8A4D1;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border-radius: 30px;
+  height: 20rem;
+  background: #F36FAB;
+  width: 100rem;
+  margin-bottom: 10rem;
+}
+.descripcion {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin: 1rem auto 0 auto;
+  animation: aparecer 1.5s ease-in-out;
+  width: 90%;
+}
+
+.icon img {
+  width: 60rem;
+  height: 40rem;
+}
+#menu{
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+    float: right;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    ul li{
+        list-style: none;
+        text-align: center;
+        display: block;
+        }
+    ul li a{
+    text-decoration: none;
+    color: #BE1D76;
+    font-size: 21px;
+    padding: 10px;
+    display: block;
+    font-family: "Delius Swash Caps", cursive;
+      font-weight: 600;
+    }
+}
+#menu ul li a:hover{
+    background-color: #D497D4;
+    color: floralwhite;
+    font-style: italic;
+}
+/* Título Principal */
+.descripcion {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  animation: aparecer 1.5s ease-in-out;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Main */
+main {
+  margin: 5rem 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title img {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+/* Slider */
+.slider-container {
+  position: relative;
+  width: 60rem;
+  
+  height: 55rem;
+  margin: 5rem auto;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.precio {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+/* Botones de navegación */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev {
+  left: 1rem;
+}
+
+.next {
+  right: 1rem;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Recomendaciones */
+.recomendaciones {
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.card img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.card p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Contacto */
+#contacto {
+  background-color: #F36FAB;
+  color: floralwhite ;
+  padding: 2rem;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 4rem;
+  border-radius: 2rem;
+  height: 8rem;
+}
+a{ 
+text-decoration:none;
+color: pink; 
+}
+/* Footer */
+footer {
+  background-color: #DC52A3;
+  color: #FFB7E1;
+  padding: 2rem;
+  text-align: center;
+  font-size: 7px;
+  border-radius: 2rem;
+  height: 5px;
+}
+

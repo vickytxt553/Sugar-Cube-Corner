@@ -1,0 +1,172 @@
+/*Chavira Eduardo
+González Kimberly
+Villalobos Victoria*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: #FFBCDD;
+}
+#CU{
+	width: 950px;
+	margin: auto;
+	margin-top: 1000px;
+	margin-block: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+header{
+	width: 950px;
+	height: 150px;
+	margin: auto;
+	margin-top: 20px;
+	margin-block: 20px;
+	border-radius: 40px;
+	overflow: hidden;
+	background-image: url(https://i.pinimg.com/736x/46/97/4f/46974f54e2c2e9054d7f862bb4034623.jpg);
+	h3{
+		font-size: 50px;
+		font-family: "Delius Swash Caps", cursive;
+		margin-top: 20px;
+		text-align: center;
+		color: #CCFBE7;
+		font-weight: bolder;
+	}
+	p{
+		font-size: 20px;
+		text-align: center;
+		font-family: arial;
+		color: #CCFBE7;
+		font-style: italic;
+		margin-top: 20px;
+		font-weight: bolder;
+	}
+}
+section{
+	width: 950px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+}
+section{
+	article{
+		background: #bb8aed;
+		width: 450px;
+		height: 1350px;
+		float: right;
+		margin-left: 50px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		p{
+			font-size: 20px;
+			margin-top: 10px;
+			text-align: center;
+			font-family: arial;
+			color: #432142;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		img{
+			width: 250px;
+			margin: auto;
+			margin-top: 30px;
+			display: block;
+			border-radius: 150px;
+			border-style: dotted;
+			border-color: #CCFBE7;
+			border-width: 6px;
+
+		}
+}
+aside{
+	background: #bb8aed;
+	width: 450px;
+	height: 1350px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-radius: 30px;
+		p{
+			font-size: 20px;
+			margin-top: 10px;
+			text-align: center;
+			font-family: arial;
+			color: #432142;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		img{
+			width: 250px;
+			margin: auto;
+			margin-top: 30px;
+			display: block;
+			border-radius: 150px;
+			border-style: dotted;
+			border-color: #CCFBE7;
+			border-width: 6px;
+	}
+}
+footer{
+	background-image: url(https://i.pinimg.com/736x/46/97/4f/46974f54e2c2e9054d7f862bb4034623.jpg);
+	width: 950px;
+	margin-top: 10px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 30px;
+	p{
+		font-size: 18px;
+		text-align: center;
+		font-family: arial;
+		color: #CCFBE7;
+		font-style: italic;
+		margin-top: 15px;
+		font-weight: bolder;
+	}
+}
+#back{
+	width: 450px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+	button{
+		background-color: #FFBCDD;
+		border: hidden;
+		transition-duration: 0.4s;
+		width: 120px;
+		border-radius: 30px;
+	}
+	button:hover{
+		background-color: #CCFBE7;
+	}
+	img{
+			width: 100px;
+			margin: auto;
+			display: block;
+	}
+}
+#next{
+	width: 450px;
+	float: right;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	button{
+		background-color: #FFBCDD;
+		border: hidden;
+		transition-duration: 0.4s;
+		width: 120px;
+		border-radius: 30px;
+		margin-left: 330px;
+	}
+	button:hover{
+		background-color: #CCFBE7;
+	}
+	img{
+			width: 100px;
+			margin: auto;
+			display: block;
+	}
+}
